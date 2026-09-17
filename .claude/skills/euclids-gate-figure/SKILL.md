@@ -47,7 +47,8 @@ description: >
 ### 命名与插入
 
 - 文件名：`no{编号}_{图号}_{语义}.png`（如 `no20_g3_radical.png`）
-- 插入：`![图 N：描述](generated_images/no{编号}_{图号}_{语义}.png)`
+- 插入：`![图 N：描述](../../generated_images/no{编号}_{图号}_{语义}.png)`
+  - `generated_images/` 在仓库根目录，文章在 `articles/long/`、`articles/short/`、`articles/other/` 下——从文章里引用要上溯两级（`../../`）；直接写 `generated_images/...` 会解析成 `articles/generated_images/...` 而失效
 
 ### 中文约束（硬）
 
@@ -125,7 +126,7 @@ for n, (x, y) in pos.items():
 - **章节脉络**：长文开头的路线预告可视化
 
 项目约定：
-- 产物放 `generated_images/`，与 TikZ 图同目录
+- 产物放仓库根目录的 `generated_images/`，与 TikZ 图同目录
 - 配色收敛到 5 色以内，同语义同色
 - 交付前跑 `check_layout.py`，无 FAIL 才算过
 

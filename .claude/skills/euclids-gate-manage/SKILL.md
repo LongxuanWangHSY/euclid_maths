@@ -30,7 +30,7 @@ article_index.json
       "title": "No1. 文章标题",
       "date": "2026-06-01",
       "category": "组合数论",
-      "file": "绝对路径",
+      "file": "articles/long/No1_文章标题.md",
       "preview": "预告主题",
       "questions": ["思考题1", "思考题2"],
       "questions_answered": false
@@ -128,4 +128,4 @@ article_index.json
 - No 系列长文 → `articles/long/`
 - S 系列日常短文 → `articles/short/`
 - 特辑、公告与独立文章 → `articles/other/`
-- 配图 → `generated_images/`
+- 配图 → `generated_images/`（仓库根目录；文章内引用写成 `../../generated_images/...`）
