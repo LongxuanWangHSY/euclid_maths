@@ -15,9 +15,9 @@ description: >
 
 ## 索引文件
 
-**路径（固定，跨系统共用）**：
+**路径（固定，跨系统共用，相对仓库根目录）**：
 ```
-C:\Users\wlx\DeskBox\CoreProjects\euclid_maths\article_index.json
+article_index.json
 ```
 
 ### 索引结构
@@ -88,8 +88,8 @@ C:\Users\wlx\DeskBox\CoreProjects\euclid_maths\article_index.json
 
 ### 步骤四：保存与更新索引
 
-- 文件命名格式：`No{id}_主题.md`，保存到 output 目录
-- **日常短文（S 系列）特殊处理**：文件名 `S{编号}_主题.md`；记录进索引（category 标「短篇」）但**不加入 agenda.pending_answers**（无思考题）、不写预告字段、不参与板块轮换
+- 文件命名格式：`No{id}_主题.md`，保存到 `articles/long/`
+- **日常短文（S 系列）特殊处理**：文件名 `S{编号}_主题.md`，保存到 `articles/short/`；记录进索引（category 标「短篇」）但**不加入 agenda.pending_answers**（无思考题）、不写预告字段、不参与板块轮换
 - 更新 article_index.json：
   - 追加新文章记录（id 递增、标题、日期、板块、预告、思考题、questions_answered: false）
   - 从 agenda.pending_topics 中移除已完成的预告
@@ -117,15 +117,15 @@ C:\Users\wlx\DeskBox\CoreProjects\euclid_maths\article_index.json
 
 1. 从 article_index.json 找到目标文章的文件路径
 2. 读取文件内容
-3. 将原文件备份到 `archive/articles/`，命名为 `No{id}_主题_v{版本号}.md`（如 `No5_连分式_v1.md`），版本号从已有备份中递增。**文件必须移动（而非复制）到 archive 目录，不得留在根目录**
+3. 将原文件备份到 `archive/articles/`，命名为 `No{id}_主题_v{版本号}.md`（如 `No5_连分式_v1.md`），版本号从已有备份中递增。**文件必须移动（而非复制）到 archive 目录，不得留在文章目录**
 4. 按用户要求修改内容，保存为新文件（保持原文件名不变，即 `No{id}_主题.md`）
 5. 不更新索引（除非标题或预告变更）
 
-**版本保留规则**：每次修改都必须保留旧版本，不得直接覆盖。旧版本统一存放在 `archive/articles/`（文章）或 `archive/skills/<skill名称>/`（Skill 文件），命名格式为 `原文件名_v{版本号}.md`，版本号按已有旧版本数量递增。**根目录和 workflow 源目录中不得残留任何旧版本文件。**
+**版本保留规则**：每次修改都必须保留旧版本，不得直接覆盖。旧版本统一存放在 `archive/articles/`（文章）或 `archive/skills/<skill名称>/`（Skill 文件），命名格式为 `原文件名_v{版本号}.md`，版本号按已有旧版本数量递增。**文章目录、仓库根目录和 workflow 源目录中不得残留任何旧版本文件。**
 
 ## 文章目录路径
 
-所有文章保存到：
-```
-C:\Users\wlx\DeskBox\CoreProjects\euclid_maths
-```
+- No 系列长文 → `articles/long/`
+- S 系列日常短文 → `articles/short/`
+- 特辑、公告与独立文章 → `articles/other/`
+- 配图 → `generated_images/`

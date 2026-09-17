@@ -1,16 +1,39 @@
-# Claude Code local settings
-.claude/settings.local.json
-
-# 含 API 密钥的配置，禁止入库（密钥请放 settings.local.json 的 env 段）
-.claude/mcp.json
-.claude/settings.json
-
-# ZIP archives
-*.zip
-
-# OS files
+# ── 操作系统 / 编辑器 ───────────────────────────────────
 .DS_Store
 Thumbs.db
+desktop.ini
+.vscode/
+.idea/
 
-# Python caches
+# ── Claude Code 本地配置与密钥（禁止入库；密钥只放环境变量或本地配置）──
+.claude/settings.local.json
+.claude/settings.json
+.claude/mcp.json
+
+# ── TeX 配图管线的中间产物 ──────────────────────────────
+# 管线：.tex → pdflatex → .pdf → pdftoppm → .png
+# 只有最终 .png 进 generated_images/ 入库，其余都是中间产物
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.out
+*.toc
+*.nav
+*.snm
+*.vrb
+*.bbl
+*.blg
+*.pdf
+
+# ── Python ──────────────────────────────────────────────
 __pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# ── 临时文件与压缩包 ────────────────────────────────────
+*.zip
+*.tmp

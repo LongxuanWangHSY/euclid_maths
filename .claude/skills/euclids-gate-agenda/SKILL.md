@@ -83,8 +83,8 @@ Agenda 存储在 article_index.json 的 `agenda` 字段中：
 | 解答往期题 | 对应项从 pending_answers 移除 |
 | 按预告写完新文章 | 对应项从 pending_topics 移除 |
 
-## 索引文件路径（固定）
+## 索引文件路径（固定，相对仓库根目录）
 
 ```
-C:\Users\wlx\DeskBox\CoreProjects\euclid_maths\article_index.json
+article_index.json
 ```

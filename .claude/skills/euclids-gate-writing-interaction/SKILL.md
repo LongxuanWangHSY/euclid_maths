@@ -120,7 +120,7 @@ description: >
 
 #### 2.2 写作执行
 
-按 euclids-gate-math-writing 规范撰文，保存到 output 目录，更新索引。
+按 euclids-gate-math-writing 规范撰文，保存到 `articles/long/`（S 系列存 `articles/short/`），更新索引。
 
 #### 2.2a 预告方向确认（必须在写预告段落之前执行）
 
@@ -188,7 +188,7 @@ description: >
   - 禁止将旧版本留在当前工作目录、workflow 源目录或任何其他位置
 - 备份完成后将旧文件**移动**（而非复制）到 archive 对应子目录，再对当前文件执行编辑。禁止直接覆盖原文
 - 此规则同时适用于 skill 文件（SKILL.md）和已发布的公众号文章
-- 根目录和 workflow 源目录中不得残留任何 `_v` 版本文件或 `_meta` 历史文件
+- 文章目录、仓库根目录和 workflow 源目录中不得残留任何 `_v` 版本文件或 `_meta` 历史文件
 
 ### 原则 4：精准修改，不扩大范围
 

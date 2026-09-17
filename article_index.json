@@ -5,7 +5,7 @@
             "title": "No1. 鸽巢原理：从抽屉里飞出的数论精灵",
             "date": "2026-06-01",
             "category": "组合数论",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No1_鸽巢原理_组合数论.md",
+            "file": "articles/long/No1_鸽巢原理_组合数论.md",
             "preview": "网格作图（grid construction）——一种特殊的单尺作图游戏",
             "questions": [
                 "任意 n+1 个不超过 2n 的正整数中，必有一个数是另一个数的倍数",
@@ -19,7 +19,7 @@
             "title": "一道恒等式，三把钥匙——论组合数学中的结构之美",
             "date": "2026-06-01",
             "category": "组合数学",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\one-identity-three-keys.md",
+            "file": "articles/other/one-identity-three-keys.md",
             "preview": "Lucas 定理：模素数下二项式系数的神奇规律",
             "questions": [
                 "将平方替换为乘积 C(n,k)*C(n,k+1) 求和，能否得到闭合形式",
@@ -33,7 +33,7 @@
             "title": "No2. Lucas 定理：模素数下二项式系数的神奇规律",
             "date": "2026-06-01",
             "category": "组合数论",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No2_Lucas定理.md",
+            "file": "articles/long/No2_Lucas定理.md",
             "preview": "柯西-施瓦茨不等式的几何直观——用向量和面积的语言重新理解不等式之王",
             "questions": [
                 "证明 C(2n,n) 为偶数当且仅当 n 不是 2 的幂，并给出因子 2 的个数公式",
@@ -47,7 +47,7 @@
             "title": "No3. 网格作图：在方格纸上的几何游戏",
             "date": "2026-06-01",
             "category": "几何",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No3_网格作图.md",
+            "file": "articles/long/No3_网格作图.md",
             "preview": "柯西-施瓦茨不等式的几何直观——用向量和面积的语言重新理解不等式之王",
             "questions": [
                 "在网格中，已知格点 A=(0,0) 和 B=(3,0)，仅用无刻度直尺如何作出 AB 的五等分点",
@@ -61,7 +61,7 @@
             "title": "No4. 组合极值：在约束中寻找最大可能",
             "date": "2026-06-01",
             "category": "组合",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No4_组合极值.md",
+            "file": "articles/long/No4_组合极值.md",
             "preview": "二次剩余的奥秘——从 Legendre 符号到二次互反律，揭示模素数世界中的平方根之谜",
             "questions": [
                 "从 {1,2,…,100} 中最多能选出多少个数，使得任意两数之差都不等于 10",
@@ -75,7 +75,7 @@
             "title": "No5. 连分式：无穷嵌套中的有理逼近",
             "date": "2026-06-02",
             "category": "数论",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No5_连分式.md",
+            "file": "articles/long/No5_连分式.md",
             "preview": "柯西-施瓦茨不等式的几何直观——用向量和面积的语言重新理解不等式之王",
             "questions": [
                 "计算 √3 的连分式展开，找出其周期，并验证它的第一个非平凡 Pell 方程解",
@@ -89,7 +89,7 @@
             "title": "No7. 柯西-施瓦茨不等式：向量与面积的对话",
             "date": "2026-06-02",
             "category": "代数",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No7_柯西施瓦茨不等式.md",
+            "file": "articles/long/No7_柯西施瓦茨不等式.md",
             "preview": "二次剩余的奥秘——从 Legendre 符号到二次互反律，揭示模素数世界中的平方根之谜",
             "questions": [
                 "利用柯西-施瓦茨不等式证明：对正实数 x_1,…,x_n，有 (x_1+…+x_n)(1/x_1+…+1/x_n) ≥ n²。等号何时成立？",
@@ -103,7 +103,7 @@
             "title": "No8. 母函数：数列的代数化身",
             "date": "2026-06-03",
             "category": "组合",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No8_母函数方法.md",
+            "file": "articles/long/No8_母函数方法.md",
             "preview": "二次剩余的奥秘——从 Legendre 符号到二次互反律",
             "questions": [
                 "用母函数方法证明：Σ_{k=0}^{n} k·C(n,k) = n·2^{n-1}",
@@ -117,7 +117,7 @@
             "title": "No9. 二次剩余的奥秘——从 Legendre 符号到二次互反律",
             "date": "2026-06-03",
             "category": "数论",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No9_二次剩余.md",
+            "file": "articles/long/No9_二次剩余.md",
             "preview": "韦达定理的对称魔法——它不止是二次方程求根公式的副产品",
             "questions": [
                 "计算 Legendre 符号 (30/71)，判断 30 是否是模 71 的二次剩余",
@@ -131,7 +131,7 @@
             "title": "No10. 课后习题全解：从九篇文章到一张方法网络",
             "date": "2026-06-06",
             "category": "综合",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No10_课后习题全解.md",
+            "file": "articles/long/No10_课后习题全解.md",
             "preview": "韦达定理——从对称多项式到根与系数的对话",
             "questions": [],
             "questions_answered": true
@@ -141,7 +141,7 @@
             "title": "No11. 韦达定理：对称魔法的代数密码",
             "date": "2026-06-05",
             "category": "代数",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No11_韦达定理.md",
+            "file": "articles/long/No11_韦达定理.md",
             "preview": "无穷递降法——从不可能到必然的逻辑下降",
             "questions": [
                 "设 α, β, γ 是方程 x³-6x²+11x-6=0 的三个根。求 1/α+1/β+1/γ 的值。",
@@ -155,7 +155,7 @@
             "title": "No12. 无穷递降法：从不可能到必然的逻辑下降",
             "date": "2026-06-05",
             "category": "数论",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No12_无穷递降法.md",
+            "file": "articles/long/No12_无穷递降法.md",
             "preview": "群作用：对称性的代数化身",
             "questions": [
                 "用无穷递降法证明 √3 不是有理数",
@@ -169,7 +169,7 @@
             "title": "No13. 群作用：对称性的代数化身",
             "date": "2026-06-05",
             "category": "代数",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No13_群作用.md",
+            "file": "articles/long/No13_群作用.md",
             "preview": "群表示论：从 Burnside 的轨道计数到特征标表的正交关系",
             "questions": [
                 "用 4 种颜色染正四面体的 4 个面。两个染色方案若可通过旋转正四面体互相转化则视为同一种。问：有多少种真正不同的染色方案？",
@@ -183,7 +183,7 @@
             "title": "No14. 构造性证明：当\"存在\"不够用时",
             "date": "2026-06-07",
             "category": "方法",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No14_构造性证明.md",
+            "file": "articles/long/No14_构造性证明.md",
             "preview": "非构造性证明：只证明存在，不构造对象",
             "questions": [
                 "用归纳构造法证明：任意 n 个点的无向连通图至少包含 n-1 条边，并显式构造一个恰含 n-1 条边的 n 点连通图。",
@@ -197,7 +197,7 @@
             "title": "No15. 非构造性证明：有，但不说在哪",
             "date": "2026-07-02",
             "category": "方法",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No15_非构造性证明.md",
+            "file": "articles/long/No15_非构造性证明.md",
             "preview": "单规作图：一把圆规的几何奇迹",
             "questions": [
                 "已知101个不超过200的正整数，证明必有一个数是另一个数的倍数，并给出构造算法找出具体哪两个数",
@@ -211,7 +211,7 @@
             "title": "No16. 单次与无限博弈：如果作恶可以得利，为什么我们还要坚持正直与善良？（对话版）",
             "date": "2026-07-06",
             "category": "通识",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No16_单次与无限博弈.md",
+            "file": "articles/long/No16_单次与无限博弈.md",
             "preview": "最后通牒博弈：为什么我们宁愿不要钱也不接受不公平",
             "questions": [
                 "在你的生活中找出一个你已经选择了长期合作的关系，其中是否有可激怒的维度",
@@ -225,7 +225,7 @@
             "title": "S1. 无理数的整数心：一个递推的故事",
             "date": "2026-08-02",
             "category": "短篇",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\S1_无理数的整数心.md",
+            "file": "articles/short/S1_无理数的整数心.md",
             "preview": "",
             "questions": [],
             "questions_answered": true
@@ -235,7 +235,7 @@
             "title": "S2. 聚会定理：n 个人里必有两人认识的人数相同",
             "date": "2026-08-02",
             "category": "短篇",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\S2_聚会定理.md",
+            "file": "articles/short/S2_聚会定理.md",
             "preview": "",
             "questions": [],
             "questions_answered": true
@@ -245,7 +245,7 @@
             "title": "S3. 互补配对：一百个数里的折半艺术",
             "date": "2026-08-02",
             "category": "短篇",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\S3_互补配对.md",
+            "file": "articles/short/S3_互补配对.md",
             "preview": "",
             "questions": [],
             "questions_answered": true
@@ -255,7 +255,7 @@
             "title": "S4. 剪掉两个角的棋盘：为什么 62 格铺不满",
             "date": "2026-08-02",
             "category": "短篇",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\S4_棋盘悖论.md",
+            "file": "articles/short/S4_棋盘悖论.md",
             "preview": "",
             "questions": [],
             "questions_answered": true
@@ -265,7 +265,7 @@
             "title": "S5. 循环立方不等式：单项比不过，就平均着比",
             "date": "2026-08-02",
             "category": "短篇",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\S5_循环立方.md",
+            "file": "articles/short/S5_循环立方.md",
             "preview": "",
             "questions": [],
             "questions_answered": true
@@ -275,7 +275,7 @@
             "title": "特辑. 明年此日青云去，却笑人间举子忙（2026 高考祝福合集）",
             "date": "2026-06-07",
             "category": "特辑",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\特辑_2026高考祝福合集.md",
+            "file": "articles/other/特辑_2026高考祝福合集.md",
             "preview": "",
             "questions": [],
             "questions_answered": true
@@ -285,7 +285,7 @@
             "title": "S6. 一笔画：奇点决定一切",
             "date": "2026-08-03",
             "category": "短篇",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\S6_一笔画.md",
+            "file": "articles/short/S6_一笔画.md",
             "preview": "",
             "questions": [],
             "questions_answered": true
@@ -295,7 +295,7 @@
             "title": "S7. 幻方之谜：为什么中间一定是 5",
             "date": "2026-08-03",
             "category": "短篇",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\S7_幻方之谜.md",
+            "file": "articles/short/S7_幻方之谜.md",
             "preview": "",
             "questions": [],
             "questions_answered": true
@@ -305,7 +305,7 @@
             "title": "S8. 剪绳子：对折两次，剪一刀，几段？",
             "date": "2026-08-03",
             "category": "短篇",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\S8_剪绳子.md",
+            "file": "articles/short/S8_剪绳子.md",
             "preview": "",
             "questions": [],
             "questions_answered": true
@@ -315,7 +315,7 @@
             "title": "No17. 极端原理：从最大最小处破局",
             "date": "2026-08-03",
             "category": "方法",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No17_极端原理.md",
+            "file": "articles/long/No17_极端原理.md",
             "preview": "奇偶性专题长文：从棋盘染色到一笔画，奇偶性作为万能不变量",
             "questions": [
                 "圆周被 n 个点分成 n 段弧，证明总存在两段相邻的弧，其长度之和不大于 720°/n",
@@ -329,7 +329,7 @@
             "title": "No18. 图论入门：把问题画成点和线",
             "date": "2026-08-08",
             "category": "组合",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No18_图论入门.md",
+            "file": "articles/long/No18_图论入门.md",
             "preview": "奇偶性专题长文：从棋盘染色到一笔画，奇偶性作为万能不变量",
             "questions": [
                 "证明：在任何一次聚会上，握过奇数次手的人数一定是偶数",
@@ -343,7 +343,7 @@
             "title": "No20. 圆幂定理与根轴：一杆秤称尽两个圆",
             "date": "2026-08-09",
             "category": "几何",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No20_圆幂定理与根轴.md",
+            "file": "articles/long/No20_圆幂定理与根轴.md",
             "preview": "调和点列与完全四边形：射影几何的种子",
             "questions": [
                 "圆外一点 P 到圆的两条切线长分别为 5 和 5。若 PO=13，求圆的半径",
@@ -357,7 +357,7 @@
             "title": "No21. 复数在平面几何中的运用：给几何装上代数的引擎",
             "date": "2026-08-12",
             "category": "几何",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No21_复数在平面几何中的运用.md",
+            "file": "articles/long/No21_复数在平面几何中的运用.md",
             "preview": "调和点列与完全四边形：射影几何的种子",
             "questions": [
                 "用复数证明：A(0,0)、B(3,1)、C(5,4)、D(2,3) 四点构成平行四边形",
@@ -371,7 +371,7 @@
             "title": "No19. 奇偶性：最简单的不变量",
             "date": "2026-08-11",
             "category": "方法",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No19_奇偶性.md",
+            "file": "articles/long/No19_奇偶性.md",
             "preview": "圆幂定理与根轴：一杆秤称尽两个圆",
             "questions": [
                 "15 枚棋子排成一排，全部白色。每次翻转任意 5 枚（白变黑、黑变白）。问：能否让 15 枚全部变成黑色",
@@ -385,7 +385,7 @@
             "title": "No22. 猜数魔术：二进制藏进五张卡片",
             "date": "2026-08-14",
             "category": "数论",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No22_猜数魔术.md",
+            "file": "articles/long/No22_猜数魔术.md",
             "preview": "生日悖论：为什么 23 个人里就几乎一定有同一天生日的",
             "questions": [
                 "想猜 1 到 63 的数，需要几张卡片？每张卡片上写几个数？",
@@ -399,7 +399,7 @@
             "title": "No23. 最少需要几次？",
             "date": "2026-08-14",
             "category": "方法",
-            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No23_最少需要几次.md",
+            "file": "articles/long/No23_最少需要几次.md",
             "preview": "生日悖论：为什么 23 个人里就几乎一定有同一天生日的",
             "questions": [
                 "13 枚硬币中 1 枚假币（轻重未知），天平称几次能找出？",

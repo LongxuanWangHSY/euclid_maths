@@ -21,6 +21,8 @@
 
 ### 文章文件
 - 文件名格式：`No{序号}_{中文标题}.md`（如 `No15_非构造性证明.md`）
+- 存放目录：No 系列长文 → `articles/long/`；S 系列短文 → `articles/short/`；特辑、公告与独立文章 → `articles/other/`
+- 配图统一放 `generated_images/`，文章内以相对路径引用
 - 数学公式用 LaTeX：`$...$` 行内、`$$...$$` 独立行
 - 文章分类参照 `.claude/skills/euclids-gate-math-writing/SKILL.md` 模板
 
